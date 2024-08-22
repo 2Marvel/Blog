@@ -1,0 +1,13 @@
+{% extends 'base.html' %} 
+
+{% block content %}
+<h2>Edit Post</h2>
+<form method="post" action="">
+  {% csrf_token %}
+  
+  {{ form.as_p }}
+  <!-- form as p allows all the input to show in paragraph not line by line -->
+  <input type="submit" value="update" />
+</form>
+
+{% endblock content %}

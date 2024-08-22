@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+  padding: 5px;
+}
+body{
+  background-color: rgb(228, 227, 233);
+  color: #000;
+}
+.title{
+  color: red;
+  font-size: larger;
+  text-decoration: none;
+  
+}
+.li{
+  list-style: none;
+}
+.new-post a{
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-weight: bolder;
+}
+.h2 a {
+  font-size: 2rem;
+  text-decoration: none;
+  background-color: burlywood;
+  color: #fff;
+  padding: .5rem;
+  border-radius: 1rem;
+  font-weight: bolder;
+}
+
+/* Python manage.py changepassword and the admin name allows you to change your password  */
+/* py manage.py shell. The shell allows us to have control over all the post in our page. */
